@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Installer Playwright avec les dépendances Chromium
-echo "Installing Playwright dependencies..."
-playwright install --with-deps
+# Installation des navigateurs Playwright avec toutes les dépendances système
+echo ">>> Installation de Playwright et des navigateurs..."
+playwright install chromium --with-deps
